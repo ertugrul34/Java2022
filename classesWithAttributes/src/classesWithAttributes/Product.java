@@ -63,6 +63,5 @@ public class Product {
 		return this.name.substring(0,1) + id;
 	}
 
-	
 
 }
