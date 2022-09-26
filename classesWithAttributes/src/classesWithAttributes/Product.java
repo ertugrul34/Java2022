@@ -2,10 +2,10 @@ package classesWithAttributes;
 
 public class Product {
 
-	public Product () {
+	public Product() {
 		System.out.println("Yapıcı Blok Çalıştı.");
 	}
-	
+
 	// attribute veya field
 
 	private int id;
@@ -13,7 +13,6 @@ public class Product {
 	private String description;
 	private double price;
 	private int stockAmount;
-	
 
 	// getter
 	public int getId() {
@@ -60,8 +59,7 @@ public class Product {
 	}
 
 	public String getKod() {
-		return this.name.substring(0,1) + id;
+		return this.name.substring(0, 1) + id;
 	}
-
 
 }
