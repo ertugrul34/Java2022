@@ -14,11 +14,11 @@ public class Product {
 	private double price;
 	private int stockAmount;
 
-	// getter
+	// getter Ürünü get ederiz okuma gibi
 	public int getId() {
 		// get yapılırken okunan veri değiştirilebilir. Başka işlemler de yapılabilir.
 		return id;
-		// setter
+	// setter Ürünü set ederiz yazma gibi
 	}
 
 	public void setId(int id) {
